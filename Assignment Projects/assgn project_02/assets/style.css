@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: whitesmoke;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+nav {
+    padding: 10px 10%;
+    height: 12vh;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    list-style: none;
+    margin-right: 4%;
+    margin-top: 1%;
+    font-weight: 700;
+}
+nav ul li img {
+    width: 130px;
+}
+nav ul li button {
+    margin-left: 200%;
+    justify-content: end;
+    padding: 15px 40px;
+    white-space: nowrap;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    border: none;
+    background-color: rgb(52, 18, 130);
+    border-radius: 10px;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.leftmain {
+    width: 40%;
+    /* margin-left: 5%; */
+    margin-top: 8%;
+}
+.leftmain h1 {
+    font-size: 60px;
+
+}
+.leftmain span {
+    color: rgb(52, 18, 130);
+}
+.leftmain p {
+    /* margin: 5% 0; */
+    margin-top: 2%;
+    white-space: nowrap;
+    font-size: 18px;
+    font-weight: 500;
+   
+}
+.rightmain {
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 5%;
+    align-self: center;
+}
+.rightmain img {
+    height: 600px;
+}
+footer {
+    display: flex;
+    margin-left: 3%;
+    margin-top: -8%;
+    
+}
+footer button {
+    
+    padding: 15px 25px;
+    font-size: 20px;
+    color: white;
+    font-weight: 400;
+    border: none;
+    background-color: rgb(52, 18, 130);
+    border-radius: 10px;
+}
